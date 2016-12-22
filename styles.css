@@ -1,0 +1,39 @@
+* {
+  padding:0px;
+  margin:0px;
+}
+
+#wrapper {
+  /*margin-left:auto;*/
+  /*margin-right:auto;*/
+  width:970px;
+  background:salmon;
+  /*height:1000px;*/
+  /*background: coral;*/
+  display:inline-block;
+}
+
+#pokedex {
+  border:30px solid red;
+  border-bottom:40px solid red;
+  vertical-align: top;
+  display:inline-block;
+  width:250px;
+  height:500px;
+  position:fixed;
+  padding-left:20px;
+  /*background-color:teal;*/
+}
+
+#pokedex h2 {
+  margin-bottom:20px;
+}
+#pokedex li {
+  margin-left: 30px;
+}
+#pokedex li:last-child {
+  margin-bottom:20px;
+}
+#pokedex p {
+  margin-bottom:20px;
+}
